@@ -81,7 +81,7 @@ Live-Regidency/
    ```bash
    npm start
    ```
-   The backend will run on `http://localhost:5000` (or your configured port).
+   The backend will run on `https://live-regidency.onrender.com` (or your configured port).
 
 ---
 
@@ -94,13 +94,13 @@ Live-Regidency/
    ```
 
 2. **Configure API base URL:**
-   - In `src/api/api.js`, set `API_BASE_URL` to your backend URL (e.g., `http://localhost:5000/profile/`).
+   - In `src/api/api.js`, set `API_BASE_URL` to your backend URL (e.g., `https://live-regidency.onrender.com/profile/`).
 
 3. **Start the frontend:**
    ```bash
    npm start
    ```
-   The frontend will run on `http://localhost:3000`.
+   The frontend will run on `live-regidency.vercel.app`.
 
 ---
 
