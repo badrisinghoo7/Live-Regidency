@@ -4,9 +4,10 @@
   margin: 40px auto;
   padding: 20px 24px;
   border: 1px solid #e0e0e0;
+  transition: box-shadow 2.2s;
   border-radius: 8px;
   background: #fafbfc;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+
 }
 @media (max-width: 600px) {
   .author-form {
