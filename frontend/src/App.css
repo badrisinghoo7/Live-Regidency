@@ -11,14 +11,6 @@
   align-items: center;
   justify-content: center;
 }
-/* .modal-content {
-  opacity: 1;
-  background: #ffffff;
-  padding: 24px 18px 18px 18px;
-  border-radius: 8px;
-  min-width: 500px;
-  position: relative;
-} */
  .modal-content {
   opacity: 0;
    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;

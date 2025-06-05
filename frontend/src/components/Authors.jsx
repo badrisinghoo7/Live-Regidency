@@ -1,16 +1,11 @@
-import React, { useEffect, useState } from 'react';
 import { FaLinkedinIn, FaTwitterSquare } from "react-icons/fa";
 import './Authors.css';
-import { API_BASE_URL } from '../api/api';
 import {Link} from 'react-router-dom';
 
 const Authors = ({ authors, setAuthors }) => {
-
-
-
   return (
     <div className="authors-container">
-      <h2 className="authors-title">Authors</h2>
+      
       <div className="authors-list">
         {authors.map(author => (
           <div className="author-card" key={author._id}>

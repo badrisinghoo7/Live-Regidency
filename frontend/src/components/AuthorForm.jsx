@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
+
 import './AuthorForm.css';
-import { API_BASE_URL } from '../api/api';
+
+
 
 const AuthorForm = ({formdata,setFormdata,handleSubmit}) => {
-
-
   const handleChange = (e) => {
     setFormdata({ ...formdata, [e.target.name]: e.target.value });
   };
-
-  
-
   return (
     <form className="author-form" onSubmit={handleSubmit}>
       <div className="form-group">
