@@ -14,7 +14,6 @@ A full-stack MERN application for managing and displaying author profiles.
   - [Frontend Setup](#frontend-setup)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
-- [License](#license)
 
 ---
 
@@ -113,9 +112,9 @@ Live-Regidency/
 
 ## Screenshots
 
-1. [![Screenshot-2025-06-05-224222.png](https://i.postimg.cc/LsbyycB2/Screenshot-2025-06-05-224222.png)](https://postimg.cc/1gDcXYjj)
+1. [![Screenshot-2025-06-05-224222.png](https://i.postimg.cc/d1VtmSm2/Screenshot-2025-06-05-234718.png)](https://postimg.cc/HJFgTzNn))
 
-2. [![Screenshot-2025-06-05-224345.png](https://i.postimg.cc/fyhfpD3n/Screenshot-2025-06-05-224345.png)](https://postimg.cc/S2D9z07D)
+2. [![Screenshot-2025-06-05-234902.png](https://i.postimg.cc/QdDBKmPb/Screenshot-2025-06-05-234902.png)](https://postimg.cc/bs6YKxqD)
 
 ---
 
@@ -124,5 +123,3 @@ Live-Regidency/
 This project is licensed under the MIT License.
 
 ---
-
-**_Happy Coding!_**
