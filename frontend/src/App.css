@@ -1,26 +1,35 @@
 .App{
   position: relative;
+  text-align: center;
 }
 
 
 .modal-backdrop {
   position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.3);
+  /* background: rgba(71, 72, 72, 0.85); */
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
  .modal-content {
+  background: rgba(71, 72, 72, 0.85);
+  background-image: url("https://cdn.prod.website-files.com/62f41dee5606d80f65b7dcbb/66941bdc3dc19067eace313c_statutepng.webp");
+  background-size: cover;
+  background-position: center;
+  /* box-shadow: 0 4px 24px rgba(0,0,0,0.18); */
+  backdrop-filter: blur(4px);
   opacity: 0;
-   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transform: scale(0.4) translateY(30px);
   animation: popupFadeIn 1.2s ease-in-out forwards;
-  background: #ffffff;
-  padding: 24px 18px 18px 18px;
+  /* background: #ffffff; */
   border-radius: 8px;
   min-width: 500px;
   position: relative;
+  
+
 }
 
 
@@ -30,7 +39,6 @@
     transform: scale(1) translateY(0);
   }
 }
-
 
 @media (max-width: 600px) {
   .modal-content {
@@ -52,22 +60,28 @@
     position: fixed;
   bottom: 10px;
   right: 50%;
-  background-color: #1976d2;
+  background-color: #2F2663;
   color: white;
   border: none;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   font-size: 24px;
   cursor: pointer;
+  
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.fa-fa-button{
+.fa-fa-button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
+  transition: transform 0.3s;
+}
+
+.fa-fa-button:hover {
+  transform: translate(-50%, -50%) rotate(180deg);
 }

@@ -67,7 +67,7 @@ const handleSubmit = async(e) => {
   };
   return (
     <div className="App">
-      <h2 className="authors-title">Authors</h2>
+      <h2 className="title">Authors</h2>
       <Authors authors={authors} setAuthors={setAuthors} />
       <div>
         {

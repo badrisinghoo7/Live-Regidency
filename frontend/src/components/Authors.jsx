@@ -26,11 +26,11 @@ const Authors = ({ authors, setAuthors }) => {
               <div className="author-links">
                 {author?.linkedIn &&
 
-                  <Link to={author?.linkedIn? author?.linkedIn: "" }><FaLinkedinIn /></Link>
+                  <Link className="linksofscocial" to={author?.linkedIn? author?.linkedIn: "" }><FaLinkedinIn /></Link>
                 }
                 <br />
                 {
-                  author?.twitter && <Link to={ author?.twitter?author.twitter:"" }><FaTwitterSquare /></Link>
+                  author?.twitter && <Link className="linksofscocial" to={ author?.twitter?author.twitter:"" }><FaTwitterSquare /></Link>
                 }
               </div>
             </div>

@@ -2,5 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #dedada;
+    background-color: #ebeaea;
+    background-image:url("https://cdn.prod.website-files.com/62f41dee5606d80f65b7dcbb/66797dab410300c772a3f856_people_talking-p-800.webp");
+    background-size: cover;
+    background-position: fill;
+    background-repeat: no-repeat;
 }
