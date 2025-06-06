@@ -32,7 +32,7 @@ const AuthorForm = ({formdata,setFormdata,handleSubmit}) => {
         />
       </div>
        <div className="form-group">
-        <label className="form-label" htmlFor="title">Title Name</label>
+        <label className="form-label" htmlFor="title">Title</label>
         <input
           className="form-input"
           id="title"
