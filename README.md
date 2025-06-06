@@ -1,4 +1,4 @@
-# Live-Regidency
+# Live-Residency
 
 A full-stack MERN application for managing and displaying author profiles.
 
@@ -20,7 +20,7 @@ A full-stack MERN application for managing and displaying author profiles.
 ## Project Structure
 
 ```
-Live-Regidency/
+Live-Residency/
 │
 ├── backend/
 │   ├── model/
