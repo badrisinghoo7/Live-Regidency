@@ -67,7 +67,7 @@ const handleSubmit = async(e) => {
   };
   return (
     <div className="App">
-      <h2 className="title">The Residents</h2>
+      <h2 className="title-heading"><span><img src="https://cdn.prod.website-files.com/62f41dee5606d80f65b7dcbb/6676ffc8dcc184ba44858820_the_residency_logo.svg" alt="" /></span>The Residents</h2>
       <Authors authors={authors} setAuthors={setAuthors} />
       <div>
         {

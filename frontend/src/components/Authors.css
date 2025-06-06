@@ -29,10 +29,11 @@
 .author-card {
   /* background: #fff; */
   border: 1px solid #e0e0e0;
+  background: rgb(243, 238, 238);
   border-radius: 10px;
   width: 250px;
   padding: 18px 14px;
-  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +42,6 @@
 
 .author-card:hover {
   cursor: pointer;
-   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
