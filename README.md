@@ -112,7 +112,7 @@ Live-Residency/
 
 ## Screenshots
 
-1. [![Screenshot-2025-06-05-224222.png](https://i.postimg.cc/d1VtmSm2/Screenshot-2025-06-05-234718.png)](https://postimg.cc/HJFgTzNn))
+1. [![Screenshot-2025-06-05-224222.png](https://i.postimg.cc/d1VtmSm2/Screenshot-2025-06-05-234718.png)](https://postimg.cc/HJFgTzNn)
 
 2. [![Screenshot-2025-06-05-234902.png](https://i.postimg.cc/QdDBKmPb/Screenshot-2025-06-05-234902.png)](https://postimg.cc/bs6YKxqD)
 
